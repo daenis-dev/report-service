@@ -1,6 +1,6 @@
-package com.greenpalmsolutions.examples.clientreports;
+package com.greenpalmsolutions.examples.clientreports.registry;
 
-public enum ClientRegistry {
+public enum ClientReportRegistry {
 
     FINANCE("finance"),
     MARKETING("marketing"),
@@ -8,7 +8,7 @@ public enum ClientRegistry {
 
     private final String id;
 
-    ClientRegistry(String id) {
+    ClientReportRegistry(String id) {
         this.id = id;
     }
 
