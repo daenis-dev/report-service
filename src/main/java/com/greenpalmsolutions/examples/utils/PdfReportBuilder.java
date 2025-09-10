@@ -11,7 +11,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.List;
 
-// TODO: unit test
 public class PdfReportBuilder implements AutoCloseable {
 
     private final PDDocument doc = new PDDocument();

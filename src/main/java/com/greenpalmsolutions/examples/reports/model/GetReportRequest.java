@@ -2,7 +2,6 @@ package com.greenpalmsolutions.examples.reports.model;
 
 import lombok.Getter;
 
-// TODO: unit test
 @Getter
 public class GetReportRequest {
 
