@@ -11,11 +11,9 @@ import java.util.Map;
 class ReportServiceFactory {
 
     private final Map<String, GetReport> REPORT_SERVICE_CACHE = new HashMap<>();
-    private final List<GetReport> REPORT_SERVICES;
 
     ReportServiceFactory(List<GetReport> reportServices) {
-        this.REPORT_SERVICES = reportServices;
-        for (GetReport reportService : this.REPORT_SERVICES) {
+        for (GetReport reportService : reportServices) {
             REPORT_SERVICE_CACHE.put(reportService.getClientId(), reportService);
         }
     }
